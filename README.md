@@ -15,8 +15,8 @@
 - Automate bindings and routes
 - Generate language files  
 - Default home page
-- Helper function
-- Custom decorators for tables and forms
+- Helper functions
+- Custom decorators for entity tables and forms
 
 
 ## Contributions
