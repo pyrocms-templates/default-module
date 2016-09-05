@@ -1,0 +1,15 @@
+{
+  "schema": {
+    "vendor": {
+      "type": "string",
+      "required": true,
+      "label": "Vendor name"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "label": "Module description",
+      "default": "Default Builder extensio module"
+    }
+  }
+}
