@@ -21,7 +21,7 @@
 
 ## Pyro Builder
 
-Read documentation of [Pyro Builder](https://github.com/websemantics/builder-extension) for more details.
+For more details read [Pyro Builder](https://github.com/websemantics/builder-extension) documentation.
 
 
 ## License
