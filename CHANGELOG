@@ -1,0 +1,5 @@
+1.0.0
+  date: 2016-09-05
+  changes:
+  - First release as a Builder template
+  - Support for interactive user experience
