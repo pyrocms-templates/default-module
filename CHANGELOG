@@ -1,5 +1,10 @@
 1.0.0
-  date: 2016-09-05
+  date: 2016-09-08
   changes:
-  - First release as a Builder template
-  - Support for interactive user experience
+  - First release as the default module Builder template
+  - Scaffold stream entities
+  - Custom decorators for entity tables and forms
+  - Automate bindings and routes
+  - Generate language files
+  - Default home page
+  - Helper functions
