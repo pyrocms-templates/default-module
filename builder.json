@@ -3,7 +3,8 @@
     "vendor": {
       "type": "string",
       "required": true,
-      "label": "Vendor name"
+      "label": "Vendor name",
+      "default": "websemantics"
     },
     "description": {
       "type": "string",
