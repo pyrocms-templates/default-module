@@ -6,6 +6,12 @@
       "label": "Vendor name",
       "default": "websemantics"
     },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "label": "Module slug",
+      "default": "generic"
+    },
     "description": {
       "type": "string",
       "required": false,
