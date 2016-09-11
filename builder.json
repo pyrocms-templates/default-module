@@ -10,7 +10,7 @@
       "type": "string",
       "required": false,
       "label": "Module description",
-      "default": "Default Builder extensio module"
+      "default": "Builder default module template"
     }
   }
 }
