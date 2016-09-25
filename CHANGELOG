@@ -1,3 +1,8 @@
+1.0.1
+  date: 2016-09-25
+  changes:
+  - Add configuration option to turn off module landing page
+
 1.0.0
   date: 2016-09-08
   changes:
