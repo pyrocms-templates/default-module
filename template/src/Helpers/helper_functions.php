@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Class {module_name}Module Helper Functions
-{docblock}
+ * Class {{module_name}}Module Helper Functions
+{{docblock}}
  */
 
  /**
@@ -13,7 +13,7 @@
   */
 
   if (!function_exists('module')) {
-    function module($namespace = '{vendor_name_lower}.module.{module_name_lower}')
+    function module($namespace = '{{vendor_name_lower}}.module.{{module_name_lower}}')
     {
         return app('Anomaly\Streams\Platform\Addon\Module\ModuleCollection')->get($namespace);
     }

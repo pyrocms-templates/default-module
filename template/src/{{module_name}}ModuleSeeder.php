@@ -1,15 +1,15 @@
-<?php namespace {vendor_name}\{module_name}Module;
+<?php namespace {{vendor_name}}\{{module_name}}Module;
 
 use Anomaly\Streams\Platform\Database\Seeder\Seeder;
 
 /**
- * Class {module_name}ModuleSeeder
+ * Class {{module_name}}ModuleSeeder
  *
-{docblock}
- * @package   {vendor_name}\{module_name}Module
+{{docblock}}
+ * @package   {{vendor_name}}\{{module_name}}Module
  */
 
-class {module_name}ModuleSeeder extends Seeder
+class {{module_name}}ModuleSeeder extends Seeder
 {
 	protected $seeders = [];
     /**

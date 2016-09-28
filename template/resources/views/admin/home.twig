@@ -10,7 +10,9 @@
                         Tools Module
                     </span>
                     <div class="card-block">
-                      {{ readme|markdown }}
+                      {% verbatim %}
+                        {{ readme|markdown }}
+                      {% endverbatim %}
                     </div>
                     <div class="card-corner card-corner-info"></div>
                 </div>

@@ -1,7 +1,7 @@
 ```
-{figlet_module_name}
+{{figlet_module_name}}
 ```
-> {description}
+> {{description}}
 
 
 ## Configuration
@@ -19,7 +19,7 @@ To scaffold your module with streams and entities, please read the [documentatio
 ## Change Log
 All notable changes to this project will be documented in this section.
 
-#### [0.0.1] - {date}
+#### [0.0.1] - {{ "now"|date("m/d/Y") }}
 ##### Changed
 - Keep track of changelog
 
