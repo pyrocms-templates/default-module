@@ -28,7 +28,8 @@
       "type": "string",
       "required": false,
       "label": "Landing Page",
-      "default": true
+      "options" : ["yes", "no"],
+      "default": "yes"
     },
     "docblock": {
       "type": "string",

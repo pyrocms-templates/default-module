@@ -106,7 +106,7 @@ return [
 	|--------------------------------------------------------------------------
 	| Home Page
 	|--------------------------------------------------------------------------
-	| Default landing page for the module
+	| Default landing page for the module, 'yes' or 'no'
 	|
   |
 	*/
