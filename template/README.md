@@ -3,6 +3,11 @@
 ```
 > {{description}}
 
+moduleName : {{ slug|studly_case }}
+moduleName - lower : {{ slug|studly_case|lower }}
+vendorName : {{ vendor|studly_case }}
+vendorName - lower : {{ vendor|studly_case|lower }}
+namespace : {{ slug|studly_case|lower }}
 
 ## Configuration
 
@@ -21,7 +26,7 @@ All notable changes to this project will be documented in this section.
 
 #### [0.0.1] - {{ "now"|date("d/m/Y") }}
 ##### Changed
-- Keep track of changelog
+- Keep track of changes
 
 
 ## Development and Deployment

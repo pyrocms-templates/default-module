@@ -17,6 +17,12 @@
       "required": false,
       "label": "Module description",
       "default": "Builder default module template"
+    },
+    "docblock": {
+      "type": "string",
+      "required": false,
+      "label": "DocBlock",
+      "default": " *"
     }
   }
 }
