@@ -18,6 +18,18 @@
       "label": "Module description",
       "default": "Builder default module template"
     },
+    "icon": {
+      "type": "string",
+      "required": false,
+      "label": "Module icon",
+      "default": "fa fa-square"
+    },
+    "landing_page": {
+      "type": "string",
+      "required": false,
+      "label": "Landing Page",
+      "default": true
+    },
     "docblock": {
       "type": "string",
       "required": false,
