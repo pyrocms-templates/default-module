@@ -1,5 +1,5 @@
 ```
-{{  [module_name, ' Module']|join|upper|figlet('shadow')}}
+{{  [module_name, ' Module']|join|upper|figlet('big')}}
 ```
 > {{description}}
 
