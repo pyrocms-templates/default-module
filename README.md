@@ -28,7 +28,7 @@ This template will trigger the user to provide the following parameters,
 - **description**, a description of the module,
 - **docblock**, comment that can provide copyright and other information about the code.
 
-While the following parameters are computed using Twig filters and functions,
+While the following parameters are derived user parameters with Twig filters and functions,
 
 - **module_name** : module class name, `{{slug|studly_case}}`,
 - **lower_module_name** : `{{slug|lower}}`,
