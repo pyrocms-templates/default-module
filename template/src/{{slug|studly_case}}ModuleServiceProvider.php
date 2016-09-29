@@ -1,15 +1,15 @@
-<?php namespace {{vendor_name}}\{{module_name}}Module;
+<?php namespace {{vendor|studly_case}}\{{slug|studly_case}}Module;
 
 use Anomaly\Streams\Platform\Addon\AddonServiceProvider;
 
 /**
- * Class {{module_name}}ModuleServiceProvider
+ * Class {{slug|studly_case}}ModuleServiceProvider
  *
 {{docblock}}
- * @package   {{vendor_name}}\{{module_name}}Module
+ * @package   {{vendor|studly_case}}\{{slug|studly_case}}Module
  */
 
-class {{module_name}}ModuleServiceProvider extends AddonServiceProvider
+class {{slug|studly_case}}ModuleServiceProvider extends AddonServiceProvider
 {
     protected $plugins = [];
 

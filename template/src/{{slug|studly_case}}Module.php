@@ -1,15 +1,15 @@
-<?php namespace {{vendor_name}}\{{module_name}}Module;
+<?php namespace {{vendor|studly_case}}\{{slug|studly_case}}Module;
 
 use Anomaly\Streams\Platform\Addon\Module\Module;
 
 /**
- * Class {{module_name}}Module
+ * Class {{slug|studly_case}}Module
  *
 {{docblock}}
- * @package   {{vendor_name}}\{{module_name}}Module
+ * @package   {{vendor|studly_case}}\{{slug|studly_case}}Module
  */
 
-class {{module_name}}Module extends Module
+class {{slug|studly_case}}Module extends Module
 {
     /**
      * The navigation icon.

@@ -11,13 +11,30 @@
 
 ## Features
 
-- Scaffold stream entities
-- Automate bindings and routes
-- Generate language files  
-- Generate an optional home page (dashboard)
-- Include helper functions
-- Use decorators for entity tables and forms
-- Powered with [Twig](http://twig.sensiolabs.org/) templates
+- Scaffold stream entities,
+- Automate bindings and routes,
+- Generate language files,
+- Generate an optional home page (dashboard),
+- Include helper functions,
+- Use decorators for entity tables and forms,
+- Powered with [Twig](http://twig.sensiolabs.org/) templates.
+
+## Parameters
+
+This template will trigger the user to provide the following parameters,
+
+- **slug**, the module identifier,
+- **vendor**, the provider of the module, i.e. `anomaly`, `websemantics`,
+- **description**, a description of the module,
+- **docblock**, comment that can provide copyright and other information about the code.
+
+While the following parameters are computed using Twig filters and functions,
+
+- **module_name** : module class name, `{{slug|studly_case}}`,
+- **lower_module_name** : `{{slug|lower}}`,
+- **vendor_name** : namespace for the module classes, `{{vendor|studly_case}}`,
+- **lower_vendor_name** : namespace for the module classes, `{{vendor|lower}}`,
+- **namespace** : streams namespace, `{{slug|lower}}`.
 
 ## Contributions
 

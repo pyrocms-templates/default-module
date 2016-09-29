@@ -1,15 +1,15 @@
-<?php namespace {{vendor_name}}\{{module_name}}Module\Http\Controller\Admin;
+<?php namespace {{vendor|studly_case}}\{{slug|studly_case}}Module\Http\Controller\Admin;
 
 use Anomaly\Streams\Platform\Http\Controller\AdminController;
 
 /**
- * Class {{module_name}}Controller
+ * Class {{slug|studly_case}}Controller
  *
 {{docblock}}
- * @package   {{vendor_name}}\{{module_name}}Module\Http\Controller\Admin
+ * @package   {{vendor|studly_case}}\{{slug|studly_case}}Module\Http\Controller\Admin
  */
 
-class {{module_name}}Controller extends AdminController
+class {{slug|studly_case}}Controller extends AdminController
 {
   /**
    * Return admin home view.

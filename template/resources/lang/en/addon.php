@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title'       => '{{module_name}}',
-    'name'        => '{{module_name}} Module',
+    'title'       => '{{slug|studly_case}}',
+    'name'        => '{{slug|studly_case}} Module',
     'description' => '{{description}}'
 ];
