@@ -1,5 +1,5 @@
 ```
-{{[module_name, 'Module'|upper]|figlet}}
+{{ module_name . 'Module'|upper|figlet}}
 ```
 > {{description}}
 
