@@ -1,9 +1,10 @@
 1.0.1
-  date: 2016-09-25
+  date: 2016-09-30
   changes:
   - Add configuration option to turn off module landing page
-  - Change template for Twig
-  
+  - Change template to Twig
+  - Rename some builder config variables, `seeding => seed`, `namespace_folder => group`,
+
 1.0.0
   date: 2016-09-08
   changes:
