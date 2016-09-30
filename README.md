@@ -8,7 +8,7 @@
 |     ||     ||  |   |  |  ||     ||     | |  |      |   |   ||      ||     ||     ||     |     |
 |_____||_____||__|   |__|__| \__,_||_____| |__|      |___|___| \____/ |_____| \__,_||_____|_____|
 ```
-> Default module template for [Pyro Builder Extension](https://github.com/websemantics/builder-extension)
+> The default module template for [Pyro Builder](https://github.com/websemantics/builder-extension)
 
 ## Features
 
