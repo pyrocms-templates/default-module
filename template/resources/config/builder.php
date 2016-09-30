@@ -65,12 +65,9 @@ return [
 	|--------------------------------------------------------------------------
 	| Allow to seed the module after it has installed by:
 	|
-	| (1) The Builder extension : 'yes' (*default)
-	| (2) Disable seeding : 'no'
-	|
 	*/
 
-	'seeding' => 'yes',
+	'seeding' => false,
 
 	/*
 	|--------------------------------------------------------------------------
