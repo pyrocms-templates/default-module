@@ -124,7 +124,7 @@ return [
   |
 	*/
 
-	'extends_repository' => '\Anomaly\Streams\Platform\Entry\EntryRepository',
+	'extends_repository' => 'Anomaly\Streams\Platform\Entry\EntryRepository',
 
 	/*
 	|--------------------------------------------------------------------------
