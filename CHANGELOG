@@ -2,7 +2,7 @@
   date: 2016-10-03
   changes:
   - Add support for fields and streams permissions
-  - Add support for sitemap
+  - Add support for sitemap with options
 
 1.0.1
   date: 2016-09-30
