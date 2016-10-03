@@ -115,11 +115,20 @@ return [
 	| Sitemap
 	|--------------------------------------------------------------------------
   |
-	| Generate sitemap from stream entries. Ex: 'sitemap' => 'stream_slug'.
+	| Generate sitemap from stream entries.
+  |
+  | Set the `stream_slug` to activate.
   |
 	*/
 
-	'sitemap' => null,
+	'sitemap' => [ 'stream_slug' => null,
+                 'url_method' => '->path()',
+                 'entries_method' => '->all()',
+                 'priority' => 0.5,
+                 'frequency' => 'monthly',
+                 'images' => '[]',
+                 'title' => 'null'
+               ],
 
   /*
 	|--------------------------------------------------------------------------
