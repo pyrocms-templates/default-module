@@ -18,7 +18,8 @@
 - Generate an optional home page (dashboard),
 - Include helper functions,
 - Use decorators for Entity tables and forms,
-- Powered with [Twig](http://twig.sensiolabs.org/) templates.
+- Powered with [Twig](http://twig.sensiolabs.org/) templates,
+- Generate fields and streams permissions.
 
 ## Getting Started
 

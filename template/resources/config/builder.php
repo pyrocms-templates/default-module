@@ -3,38 +3,45 @@
 return [
 
   /*
-  |           __
-  |          /  |
-  |         |    \_        ______ __   __ __ __     _____  ______ _____
-  |      __  \     `-_    |  _   |  | |  |  |  |   |     ||      |   _ |
-  |    /   \  ''-.    \   | |_|  |  | |  |  |  |   |  _   |   ___|  | ||
-  |   /    /      \    \  |      |  |_|  |  |  |   | | |  |  |___   |_||_
-  |   |   |  PYRO  |   |  |  _  ||       |  |  |___| |_|  |   ___|   __  |
-  |   \    \      /    /  | |_|  |       |  |      |      |  |___|  |  | |
-  |    \    `-..-'    /   |______|_______|__|______|_____||______|__|  |_|
-  |     '-_        _-'
-  |        `------'      Addons scaffolder for maximum coding pleasure
+  |                                ))))
+  |   _________ _______     __ooO_(O o)_Ooo____
+  |  |          \      \   /     | (_)         \\===========\===========\
+  |  |     __    \      \ /      |     __      |            |           |
+  |  |    |__)    \      V      /|    |__)     |            |           |
+  |  |            |\           / |            <            ┌┴┐         ┌┴┐
+  |  |        ___/  |         |  |             \          _ \ \       /  |
+  |  |       |      |         |  |      |\      \        | \_| |     |    \_
+  |  |       |      |         |  |      | \      \        \___/  __  \      `-_
+  |  |_______|      |_________|  |______|  |______|             /   \  ''-.    \
+  |   ____   __ __  ____  _     ___      ___  ____             /    /      \    \
+  |  |    \ |  |  ||    || |   |   \    /  _||    \            |   |        |   |
+  |  | ()  )|  |  | |  | | |\\\\    \  /  |_ | ()  )           \    \      /    /
+  |  |     ||  |  | |  | |  ( oo) () ||    _||    /             \    `-..-'    /
+  |  | ()  ||  :  | |  | |   (_)     ||   |_ |    \       - --   '-_        _-'
+  |  |_____| \__,_||____||____||_____||_____||__|\_|                `------'
+  |  Addons scaffolder for maximum coding pleasure            - -- --------- -- -
+  |
+  |  Github: https://github.com/websemantics/builder-extension
+  |
   */
 
 	/*
 	|--------------------------------------------------------------------------
-	| Namespaces
+	| Namespace
 	|--------------------------------------------------------------------------
-	| A list of all the Stream Namespaces used in this Module.
+  |
+	| A list of all stream namespaces used in this module.
 	|
 	| More control over code generated can be established per assignment,
 	| for example, hide / show table columns and form fields per stream assignment,
 	| also table column field view / template.
-	|
-	| for example:
 	|
 	|	'namespaces' => [
 	|		'namespace' => [
 	|			'field_slug' => [
 	|				'hide_column' => true,  *optional, (false by default)
 	|				'hide_field'  => false,  *optional, (false by default)
-	|				'column_template'    =>
-	|     '<span class="label label-default">{value}</span> *optional, ('{value}' by default)
+	|				'column_template' => '<span class="label label-default">{value}</span>' *optional
 	|			]
 	|		]
 	| ]
@@ -61,9 +68,10 @@ return [
 
 	/*
 	|--------------------------------------------------------------------------
-	| Seeding
+	| Seeder
 	|--------------------------------------------------------------------------
-	| Allow to seed the module after it has installed by:
+  |
+	| Trigger the module's seeder after a successful installation.
 	|
 	*/
 
@@ -71,19 +79,21 @@ return [
 
 	/*
 	|--------------------------------------------------------------------------
-	| Relationship 'null' value
+	| Relationship
 	|--------------------------------------------------------------------------
-	| The default view for a null relationship entry
+  |
+	| A default view template for a null relationship entry value.
 	|
 	*/
 
 	'null_relationship_entry' => '<span class="label label-default">null</span>',
 
-	/*
+  /*
 	|--------------------------------------------------------------------------
-	| Namespaces folder
+	| Entity
 	|--------------------------------------------------------------------------
-	| Group all entities (streams) in one folder
+  |
+	| Group stream entities from the same namespace in a single folder.
 	|
 	*/
 
@@ -91,9 +101,32 @@ return [
 
   /*
 	|--------------------------------------------------------------------------
-	| Module icon
+	| Permissions
 	|--------------------------------------------------------------------------
-	| Based on http://fontawesome.io/icons/
+  |
+	| Generate fields and streams permissions.
+	|
+	*/
+
+	'permissions' => true,
+
+  /*
+	|--------------------------------------------------------------------------
+	| Sitemap
+	|--------------------------------------------------------------------------
+  |
+	| Generate sitemap from stream entries. Ex: 'sitemap' => 'stream_slug'.
+  |
+	*/
+
+	'sitemap' => null,
+
+  /*
+	|--------------------------------------------------------------------------
+	| Module
+	|--------------------------------------------------------------------------
+  |
+	| Set the module icon, http://fontawesome.io/icons.
 	|
 	*/
 
@@ -101,10 +134,10 @@ return [
 
   /*
 	|--------------------------------------------------------------------------
-	| Home Page
+	| Home Page (WORK IN PROGRESS)
 	|--------------------------------------------------------------------------
-	| Default landing page for the module, 'yes' or 'no'
-	|
+  |
+	| Setup a landing page ('yes' / 'no').
   |
 	*/
 
@@ -112,12 +145,11 @@ return [
 
 	/*
 	|--------------------------------------------------------------------------
-	| Repository Super Class
+	| Repository
 	|--------------------------------------------------------------------------
-	| Extend all generated repositories to a common super class,
-  | '\Anomaly\Streams\Platform\Entry\EntryRepository' by default,
   |
-	| Example: 'Websemantics\NamedModule\Common\CommonRepository'
+	| Extend all generated repositories to a common super class,
+  | '\Anomaly\Streams\Platform\Entry\EntryRepository' by default.
   |
 	*/
 
@@ -125,19 +157,15 @@ return [
 
 	/*
 	|--------------------------------------------------------------------------
-	| Avoid Overwrite
+	| Development
 	|--------------------------------------------------------------------------
-	|
-	| For development and to avoid overwriting on code added, list all the files
-	| that should not be overwritten by the builder. Use the last part of the
-	| file name, ..
-	|
-	| for example:
-	|   -PostModel.php 		  -> 'Model.php'
-	|   -FileTableColumns.php -> 'TableColumns.php'
-	|
-	| If you require the builder to generate a fresh copy of the file, either remove it from
-	| here or delete it form the module.
+  |
+  | To aid development alongside code generation, this setting will help
+  | to protect all classes that you might change / have changed and want
+  | the builder to skip when re-scaffolding the module.
+  |
+	| The builder expects the last part of a filename so that it can be
+  | observed globally.
 	|
 	*/
 
@@ -153,7 +181,7 @@ return [
 	|--------------------------------------------------------------------------
 	| Docblock
 	|--------------------------------------------------------------------------
-	|	Docblock text to include with entity generated files
+	|	Docblock text to include with generated code.
 	|
 	*/
 
