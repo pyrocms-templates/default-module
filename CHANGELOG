@@ -1,3 +1,8 @@
+1.0.3
+  date: 2016-12-05
+  changes:
+  - Fix missing `landing_page` quotes in `config/builder.php`.
+
 1.0.2
   date: 2016-10-03
   changes:
