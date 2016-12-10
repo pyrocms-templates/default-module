@@ -13,12 +13,6 @@ This module comes with a default **Home**/**Dashboard** view located at `resourc
 
 To scaffold your module with streams and entities, please read the [documentation](https://github.com/websemantics/builder-extension#).
 
-## Resources
-
-- [Pyrocms Cheatsheet](http://websemantics.github.io/pyrocms-cheatsheet/), a list of commands and features for PyroCMS 3.
-- [Awesome Pyrocms](https://github.com/websemantics/awesome-pyrocms), a curated list of PyroCMS addons and resources.
-- [AutoPyro](https://github.com/websemantics/auto-pyro), a deploy tool with customization, install automation, better code tracing setup and other nice-to-have features
-
 ## License
 
 [MIT license](http://opensource.org/licenses/mit-license.php)
