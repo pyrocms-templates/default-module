@@ -13,13 +13,6 @@ This module comes with a default **Home**/**Dashboard** view located at `resourc
 
 To scaffold your module with streams and entities, please read the [documentation](https://github.com/websemantics/builder-extension#).
 
-## Change Log
-All notable changes to this project will be documented in this section.
-
-#### [0.0.1] - {{ "now"|date("d/m/Y") }}
-##### Changed
-- Keep track of changes
-
 ## Resources
 
 - [Pyrocms Cheatsheet](http://websemantics.github.io/pyrocms-cheatsheet/), a list of commands and features for PyroCMS 3.
